@@ -6,5 +6,3 @@ print(df.head())
 from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
 df['species'] = le.fit_transform(df['species'])
-print("\nData after transformation:")
-print(df.head())
